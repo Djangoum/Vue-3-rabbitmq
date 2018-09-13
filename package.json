@@ -1,12 +1,12 @@
 {
-  "name": "chat-app",
+  "name": "machine-state-app",
   "version": "1.0.0",
-  "description": "A chat app.",
+  "description": "Test rabbitmq communication",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "John Pettigrew <john.pettigrew404@gmail.com>",
+  "author": "Ariel Amor García",
   "dependencies": {
     "amqplib": "^0.4.2",
     "express": "^4.13.4",

@@ -1,6 +1,6 @@
 var amqp = require('amqplib/callback_api');
 
-var address = 'amqp://localhost:9000'
+var address = 'amqp://localhost:5672'
 
 console.log(address);
 

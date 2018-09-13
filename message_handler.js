@@ -3,16 +3,15 @@ var rabbitMQHandler = require('./rabbitMQ_messaging');
 module.exports = messageHandler;
 
 function messageHandler(io){
-  rabbitMQHandler('amqp://localhost:9000', function(err, options){
+  rabbitMQHandler('amqp://rabbitmq:rabbitmq@localhost:5672', function(err, options){
     
-
-  options.onMessageReceived = function onMessageReceived(message){
-    console.log("state change arrived");
-    io.emit('statechange', message);
-  }
-
     if(err){
       throw err;  
+    }
+
+    options.onMessageReceived = function onMessageReceived(message){
+      console.log("state change arrived");
+      io.emit('statechange', message);
     }
 
     io.on('connection', websocketConnect);
