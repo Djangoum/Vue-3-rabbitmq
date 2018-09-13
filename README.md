@@ -10,12 +10,10 @@ then in client/reactivewebapp, you can find the front end code.
 
 If you launch both applications, and different backends you can test what was shown in the talk.
 
-The main goal was to show how a web app with web sockets could be scaled using rabbitmq and how can we take advantage with vuejs/vuex reactivity features tu give a proper structure to our front end code.
+The main goal was to show how a web app with web sockets could be scaled using rabbitmq and how can we take advantage with vuejs/vuex reactivity features to give a proper structure to our front end code.
 
 Hope you liked the talk <3
 
-Please do not doubt to contact me if you have any problem or question.
+Please do not doubt to contact me if you have any problem or question. arielamorgarcia@gmail.com
 
 Best Regards! 
-
-arielamorgarcia@gmail.com
